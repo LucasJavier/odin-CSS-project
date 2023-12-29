@@ -1,0 +1,285 @@
+.presentation-right img{
+    width: 550px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.pictures-bottom img{
+    width: 125px;
+    height: 125px;
+    border: 5px solid #3882F6;
+}
+
+.page-one{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation{
+    flex: 1;
+    display: flex;
+    padding: 100px;
+}
+
+.pictures{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header,
+.presentation,
+.footer{
+    background-color: #1F2937;
+}
+
+.header-left{
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right{
+    flex: 2 1 0;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;  
+    padding: 10px 40px 5px 30px;
+    gap: 15px;
+    margin: 0px;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+a,
+.sub-title{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    border: 0px;
+    margin: 0px;
+    font-weight: 100    ;
+}
+
+.logo{
+    padding: 10px 30px 5px 40px;
+    border: 0px;
+    margin: 0px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    padding: 0px;
+    border: 0px;
+    margin: 32px 0px 10px 0px;
+}
+
+.sub-title{
+    padding: 0px;
+    border: 0px;
+    margin: 0px 25px 15px 0px;
+}
+
+button,
+.pictures-bottom img,
+.registration-container{
+    border-radius: 7px;
+}
+
+button{
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    background-color: #3882F6;
+}
+
+.sign-up-one button{
+    border: 2px solid #3882F6;
+    font-weight: 700;
+    width: 130px;
+}
+
+.presentation-left{
+    flex: 1 1 0;
+    padding: 0px 0px 0px 50px;
+}
+.presentation-right{
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;    
+}
+
+.pictures-top{
+    flex: 1 1 0;
+}
+
+.pictures-bottom{
+    display: flex;
+    margin: 10px 100px 100px 100px;
+    flex: 2 1 0;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.picture-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    width: 225px;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.description{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote{
+    flex: 1;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 1200px;
+    margin: 0px;
+    border: 0px;
+    font-size: 36px;
+    color: #1F2937  
+}
+
+.quote{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 5px 100px;
+}
+
+.mark-quotation{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0px 100px 0px;
+}
+
+.person-quote-left{
+    flex: 2;
+}
+
+.person-quote-right{
+    flex: 1;
+    padding: 0px 0px 0px 100px;
+    color: #1F2937;
+    font-weight: 1000;
+}
+
+.registration-container{
+    flex:1;
+    max-width: 1500px;
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 50px;
+
+}
+
+.registration-left,
+.registration-right{
+    padding: 50px 150px;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 800;
+    color: #F9FAF8;
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+}
+
+.sign-up-information{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.registration-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-two button{
+    font-weight: 600;
+    width: 130px;
+    border: 2px solid white;
+}
+
+.registration-left{
+    flex: 5;
+}
+
+footer{
+    font-size: 16px;
+    color: #E5E7EB;
+    margin: 30px;
+}
