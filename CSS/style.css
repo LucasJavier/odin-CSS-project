@@ -243,12 +243,8 @@ blockquote{
 
 }
 
-.registration-left,
-.registration-right{
-    padding: 50px 150px;
-}
-
 h4{
+    flex: 1;    
     font-size: 30px;
     font-weight: 800;
     color: #F9FAF8;
@@ -266,6 +262,7 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 100px 50px 50px;
 }
 
 .sign-up-two button{
@@ -275,6 +272,7 @@ h4{
 }
 
 .registration-left{
+    padding: 50px 50px 50px 100px;
     flex: 5;
 }
 
